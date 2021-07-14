@@ -2,11 +2,13 @@
 
 :root{
     --primary-color: #F87171;
+    --off-white: #F3F4F6;
     --dark-gray: #6B7280;
 }
 
 body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
 
 .container{
@@ -85,14 +87,39 @@ hr{
 .hero .hero-heading{
     padding-top: 1rem;
     color: var(--dark-gray);
+    text-align: center;
 }
 
 .hero .hero-heading .heading-inverted{
     color: var(--primary-color);
 }
 
-/* ********start from here 1:04:36*********** */
+.section{
+    padding: 2rem;
 
-.section h1, h2, h3{
+}
+
+.section h1{
     text-align: center;
 }
+
+.ow{
+    background-color: var(--off-white);
+}
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
